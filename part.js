@@ -62,7 +62,8 @@ const acsend = (a, b) => {
 const anssnd = listsort.slice().sort(acsend);
 console.log(anssnd);
 
-// reduce //
+// reduce = add,multiply,anythings //
+
 const listreduce = [1,11,22,33,44,55,66,77];
 
 const subh = listreduce.reduce((acc,ss) => {
