@@ -46,3 +46,15 @@ const addpartial = x =>
     downup(x + 1,max);
  };
  downup(0,10);
+
+ // count value of array in //
+ //one more comment
+ const mainlist = ['shubham','aman','makal','sakshi','shubham','aman','makal','sakshi'];
+
+const newmain = votes => {
+    return votes.reduce((acc,x) =>({
+        ...acc,
+        [x]: acc[x] ? acc[x] + 1 : 1,
+    }) ,{});
+};
+console.log(newmain(mainlist));
